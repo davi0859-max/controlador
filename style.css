@@ -1,9 +1,50 @@
-/* minimal style adjustments */
-body { background:#f5f7fb; font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; }
-.navbar-brand { font-weight:600; }
-.tab { display:none; }
-.tab.active { display:block; }
-.cards { display:flex; gap:16px; margin-top:12px; }
-.card.p-3 { background:white; border-radius:8px; box-shadow:0 1px 4px rgba(0,0,0,0.06); flex:1; }
+/* Ajustes mínimos de estilo geral */
+body {
+  background: #f5f7fb; /* cor de fundo do site */
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; /* fonte padrão moderna */
+}
 
-body{font-size:18px;} .container{max-width:1400px;} .p-2{padding:1.5rem!important;}
+/* Deixa o texto “Controle de Compras” mais forte no topo */
+.navbar-brand {
+  font-weight: 600;
+}
+
+/* Por padrão, todas as abas ficam escondidas */
+.tab {
+  display: none;
+}
+
+/* Quando a aba estiver ativa, ela aparece */
+.tab.active {
+  display: block;
+}
+
+/* Container dos cards do Dashboard */
+.cards {
+  display: flex;      /* coloca os cards lado a lado */
+  gap: 16px;          /* espaçamento entre eles */
+  margin-top: 12px;
+}
+
+/* Estilo dos cards do dashboard */
+.card.p-3 {
+  background: white;                         /* fundo branco */
+  border-radius: 8px;                        /* bordas arredondadas */
+  box-shadow: 0 1px 4px rgba(0,0,0,0.06);    /* sombra leve */
+  flex: 1;                                    /* todos os cards ocupam o mesmo tamanho */
+}
+
+/* Aumenta a fonte geral do site */
+body {
+  font-size: 18px;
+}
+
+/* Deixa o site mais largo — ótimo para PC */
+.container {
+  max-width: 1400px;
+}
+
+/* Aumenta o padding da classe p-2 (de 0.5rem para 1.5rem) */
+.p-2 {
+  padding: 1.5rem !important;
+}
